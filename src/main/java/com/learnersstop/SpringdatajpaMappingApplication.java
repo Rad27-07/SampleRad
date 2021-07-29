@@ -14,7 +14,7 @@ public class SpringdatajpaMappingApplication {
 		ConfigurableApplicationContext con = SpringApplication.run(SpringdatajpaMappingApplication.class, args);
 		 Customer c = con.getBean("customer",Customer.class);
 		CustomerServiceImpl cs = new CustomerServiceImpl();
-		cs.addCustomer(c);
+		//cs.addCustomer(c);
 	}
 
 }

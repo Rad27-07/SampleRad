@@ -12,7 +12,7 @@ import com.learnersstop.dto.OrderRequest;
 import com.learnersstop.dto.OrderResponse;
 import com.learnersstop.entity.Customer;
 import com.learnersstop.repository.CustomerRepository;
-import com.learnersstop.repository.ProductRepository;
+//import com.learnersstop.repository.ProductRepository;
 
 @RestController
 public class OrderController {
@@ -21,8 +21,8 @@ public class OrderController {
 	@Autowired
 	private CustomerRepository customerRepository;
 	
-	@Autowired
-	private ProductRepository productRepository;
+	//@Autowired
+	//private ProductRepository productRepository;
 	
 	
 	@PostMapping("/placeOrder")
